@@ -75,7 +75,7 @@ class HomeComponent extends React.Component {
               ref={el => {
                 this.captcha = el;
               }}
-              sitekey="6Legk9cUAAAAAKRTRZKjX8ZezyLWX4v88vN8CJzq"
+              sitekey="6Lf8k9cUAAAAAHRZ2qan2-qppP4XY06FmtlqXv-p"
               onVerify={this.onVerify}
             />
           </div>
