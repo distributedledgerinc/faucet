@@ -64,10 +64,10 @@ class HomeComponent extends React.Component {
           pauseOnHover
         />
         <section>
-          <h2>Terra Testnet Faucet</h2>
+          <h2>MXCX Testnet Faucet</h2>
           <article>
             Hello intrepid spaceperson! Use this faucet to get tokens for the
-            latest Terra testnet. Please don't abuse this service—the number of
+            latest MXNC testnet. Please don't abuse this service—the number of
             available tokens is limited.
           </article>
           <div className="recaptcha">
@@ -173,30 +173,7 @@ class HomeComponent extends React.Component {
             )}
           </Formik>
         </section>
-        <section>
-          <h2>Don't you have a testnet address?</h2>
-          <article>
-            There's two ways to get one. The first is by using Station, the
-            crypto wallet for Terra. If you know command-line-fu, you can also
-            generate an address with the Terra SDK.
-          </article>
-          <div className="buttonContainer">
-            <button className="light">
-              <i aria-hidden="true" className="material-icons">
-                supervisor_account
-              </i>
-              <span>
-                <a
-                  href="https://github.com/terra-project/core/blob/develop/docs/guide/join-network.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Join the latest testnet
-                </a>
-              </span>
-            </button>
-          </div>
-        </section>
+
       </div>
     );
   }
