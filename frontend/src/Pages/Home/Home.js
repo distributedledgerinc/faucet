@@ -75,7 +75,7 @@ class HomeComponent extends React.Component {
               ref={el => {
                 this.captcha = el;
               }}
-              sitekey="6Ld4w4cUAAAAAJceMYGpOTpjiJtMS_xvzOg643ix"
+              sitekey="6Legk9cUAAAAAKRTRZKjX8ZezyLWX4v88vN8CJzq"
               onVerify={this.onVerify}
             />
           </div>
@@ -173,7 +173,6 @@ class HomeComponent extends React.Component {
             )}
           </Formik>
         </section>
-
       </div>
     );
   }
