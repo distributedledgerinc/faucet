@@ -15,7 +15,7 @@ class App extends Component {
         </header>
         <Route />
         <footer>
-          &copy; {this.showCurrentYear()} <span>Terra</span>
+          &copy; {this.showCurrentYear()} <span>MXNC - a DLI Project</span>
         </footer>
       </Router>
     );
